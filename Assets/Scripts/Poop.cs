@@ -18,9 +18,6 @@ public class Poop : MonoBehaviour
         {
             Time.timeScale = 0;
             GameManager.instance.gameover = true;
-            //gameObject.SetActive(false);
-            // 게임 일시정지
-            //EditorApplication.isPaused = true;
         }
     }
     // y 좌표 이하로 내려가면 오브젝트 비활성화
