@@ -28,7 +28,6 @@ public class GameOver : MonoBehaviour
         {
             panel.SetActive(true);
             score = GameManager.instance.timer.Score;
-            //txt.text = "Á¡¼ö : " + score.ToString();
         }
     }
 }
