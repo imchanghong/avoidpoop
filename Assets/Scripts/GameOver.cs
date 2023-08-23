@@ -29,6 +29,7 @@ public class GameOver : MonoBehaviour
             panel.SetActive(true);
             score = GameManager.instance.timer.Score;
             //txt.text = "점수 : " + score.ToString();
+            // 주석dfdasffds
         }
     }
 }
